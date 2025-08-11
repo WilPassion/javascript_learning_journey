@@ -57,9 +57,20 @@ for (let lista of fruits) {
 
 console.log("\n");
 
-// ADDING BREAK INTO LOOP
-for (let i = 0; i < 10; i++) {
-    
-    if (i == 8) break; // interrompe loop
-    console.log(i)     
+// 
+for (let x = 0; x < 10; x++) {
+    console.log (`A soma de ${x} com 10 é =  ${x + 10}`)
+}
+
+console.log("\n");
+
+//
+for(let i = 10; i > 0; i--) {
+    if(i % 2 == 0) {
+        console.log("Não PAR... Caiu no continue!")
+        continue;
+    }
+    else {
+        console.log(i);
+    }
 }
